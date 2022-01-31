@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { StyleSheet, Text, View, ScrollView, TextInput } from 'react-native';
 import { AntDesign, Feather } from '@expo/vector-icons';
+import MiniCard from '../components/MiniCard';
 
 
 
@@ -24,6 +25,7 @@ const SearchScreen = () => {
 
                                 <Feather name="send" size={24} color="black" />
 
+                                <MiniCard />
                         </View>
                 
                 </View>
