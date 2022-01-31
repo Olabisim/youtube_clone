@@ -7,8 +7,8 @@ import Card from '../components/Card'
 export default function Home() {
 
         return (
-
-                <View>
+                // the main reason for it bacause some part of the last contents are hidden 
+                <View style={{ flex: 1}}>
 
                         <Header />
 

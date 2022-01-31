@@ -1,7 +1,6 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native';
 import { Entypo, Ionicons, MaterialIcons } from '@expo/vector-icons';
-import TopHeight from 'expo-contants';
 
 
 const myColor = "black";
@@ -46,7 +45,6 @@ export default function Home() {
 const styles = StyleSheet.create({
 
         rootView : { 
-                marginTop: TopHeight.statusBarHeight,
                 height: 40,
                 backgroundColor: "white",
                 flexDirection: "row",
