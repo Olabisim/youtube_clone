@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleSheet, T as T, V as V, I as I, D as D} from 'react-native';
+import { StyleSheet, Text as T, View as V, Image as I, Dimensions as D} from 'react-native';
 
 
 // image :::  https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw1MHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60
