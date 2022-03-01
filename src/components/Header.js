@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native';
 import { Entypo, Ionicons, MaterialIcons } from '@expo/vector-icons';
+import TopHeight from 'expo-constants'
 
 
 const myColor = "black";
@@ -49,7 +50,8 @@ const styles = StyleSheet.create({
                 backgroundColor: "white",
                 flexDirection: "row",
                 justifyContent: "space-between",
-                elevation: 4
+                elevation: 4,
+                marginTop: TopHeight.statusBarHeight
         },
 
         youtubeDir : {

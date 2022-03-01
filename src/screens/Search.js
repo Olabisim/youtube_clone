@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, ScrollView, TextInput, FlatList, ActivityIndica
 import { AntDesign, Feather } from '@expo/vector-icons';
 import MiniCard from '../components/MiniCard';
 import { YOUTUBE_API_KEY } from 'react-native-dotenv'
+import TopHeight from 'expo-constants'
 
 
 const SearchScreen = () => {
@@ -27,7 +28,7 @@ const SearchScreen = () => {
 
 
         return (
-                <View style={{flex: 1}}>
+                <View style={{ flex: 1, marginTop: TopHeight.statusBarHeight }}>
 
                         <View style = {{padding: 5, flexDirection: "row", justifyContent: "space-around", elevation : 5, backgroundColor: "white"}}>
 
@@ -53,7 +54,7 @@ const SearchScreen = () => {
                                 <FlatList 
                                 
                                         data = {miniCardData}
-                                        renderItem={item => {
+                                        renderItem={({item}) => {
                                                 return <MiniCard 
                                                                 videoId={item.id.videoId} 
                                                                 title={item.snippet.title}
