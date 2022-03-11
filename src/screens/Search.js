@@ -2,12 +2,13 @@ import React, { useState } from 'react'
 import { StyleSheet, Text, View, ScrollView, TextInput, FlatList, ActivityIndicator as AI } from 'react-native';
 import { AntDesign, Feather } from '@expo/vector-icons';
 import MiniCard from '../components/MiniCard';
-import { YOUTUBE_API_KEY } from 'react-native-dotenv'
+// import { YOUTUBE_API_KEY } from 'react-native-dotenv'
 import TopHeight from 'expo-constants'
 
 
 const SearchScreen = () => {
 
+        const YOUTUBE_API_KEY = ''
 
         const [value, setValue] = useState('')
         const [miniCardData, SetMiniCardData] = useState([])

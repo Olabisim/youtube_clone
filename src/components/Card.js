@@ -23,7 +23,7 @@ const Card = ( ) => {
                                 margin: 5
                         }}>
 
-                                <MaterialIcons name="account-circle" size={40} color={myColor} />
+                                <MaterialIcons name="account-circle" size={40} />
 
                                 <View
                                         style={{
@@ -34,7 +34,7 @@ const Card = ( ) => {
                                         <Text 
                                                 style={{
                                                         fontSize: 15,
-                                                        fontWeight: 600,
+                                                        fontWeight: '600',
                                                         width: Dimensions.get("screen").width - 50
                                                 }}
                                                 ellipsizeMode='tail'
@@ -53,3 +53,9 @@ const Card = ( ) => {
         )
 
 }
+
+export default Card;
+
+
+// 
+                                // <MaterialIcons name="account-circle" size={40} color={myColor} />

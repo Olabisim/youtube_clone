@@ -1,8 +1,8 @@
-
+import React from 'react'
 import { StyleSheet, Text, View } from 'react-native';
 import Home from './src/screens/Home';
 import Search from './src/screens/Search';
-import TopHeight from 'expo-contants';
+import TopHeight from 'expo-constants';
 import VideoPlayer from './src/screens/VideoPlayer'
 import Explore from './src/screens/Explore'
 import Subscribe from './src/screens/Subscribe'
